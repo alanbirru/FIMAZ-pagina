@@ -3,6 +3,13 @@ import { useState } from "react";
 import Hamburger from "./Hamburger";
 
 const NavBar = () => {
+  // start hamburger variables
+  const [open, setOpen] = useState(false);
+  const handleHamburgerClick = () => {
+    setOpen(!open);
+    console.log(open);
+  };
+
   // start nav items varibales
   const navItems = ["Inicio", "Servicios", "Precios", "Contacto"];
   const listNavItems = navItems.map((item, index) => {
@@ -17,14 +24,8 @@ const NavBar = () => {
     );
   });
 
-  // start hamburger variables
-  const [open, setOpen] = useState(false);
-  const handleHamburgerClick = () => {
-    setOpen(!open);
-    console.log(open);
-  };
   return (
-    <nav id="Navbar" className="fixed left-0 top-0 w-full shadow-md">
+    <nav id="Navbar" className="fixed left-0 top-0 z-10 w-full shadow-md">
       <div className="items-center justify-between bg-white px-7 md:flex md:px-10">
         <div>
           <img className="w-24 p-2 md:w-28" src={LOGO}></img>
@@ -34,7 +35,7 @@ const NavBar = () => {
 
         <ul
           className={`absolute left-0 right-0  z-[-1] mx-auto w-80    bg-gray-800 shadow-xl transition-all duration-700 ease-in-out md:static md:z-auto md:m-0 md:flex md:w-auto md:items-center md:bg-white md:pb-0 md:pl-0 md:shadow-none  ${
-            open ? " top-14" : " top-[-490px]  md:opacity-100"
+            open ? " top-14" : " top-[-490px] md:opacity-100"
           }`}
         >
           {listNavItems}

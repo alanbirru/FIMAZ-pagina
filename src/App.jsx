@@ -1,9 +1,11 @@
 import NavBar from "./components/Navbar/NavBar";
+import Hero from "./components/pages/Hero";
 function App() {
   return (
     <div>
       <NavBar />
-      <div></div>
+      <Hero />
+      <div className="container mx-auto"></div>
     </div>
   );
 }
