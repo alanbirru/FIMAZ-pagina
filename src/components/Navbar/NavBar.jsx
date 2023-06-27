@@ -33,10 +33,8 @@ const NavBar = () => {
         <Hamburger open={open} onClick={handleHamburgerClick} />
 
         <ul
-          className={`absolute left-0 right-0  z-[-1] mx-auto w-80    bg-gray-800 shadow-xl transition-all duration-200 ease-in md:static md:z-auto md:m-0 md:flex md:w-auto md:items-center md:bg-white md:pb-0 md:pl-0 md:shadow-none  ${
-            open
-              ? " top-14 opacity-100"
-              : " top-[-490px] opacity-0 md:opacity-100"
+          className={`absolute left-0 right-0  z-[-1] mx-auto w-80    bg-gray-800 shadow-xl transition-all duration-700 ease-in-out md:static md:z-auto md:m-0 md:flex md:w-auto md:items-center md:bg-white md:pb-0 md:pl-0 md:shadow-none  ${
+            open ? " top-14" : " top-[-490px]  md:opacity-100"
           }`}
         >
           {listNavItems}
