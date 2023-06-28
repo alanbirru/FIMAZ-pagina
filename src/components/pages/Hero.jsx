@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section
-      className={`h-[800px] bg-yellow-600 bg-[url("hero.jpg")] bg-cover bg-center  bg-no-repeat pt-3 md:h-[1000px]`}
+      className={`h-[800px] bg-[url("hero.jpg")] bg-cover bg-center  bg-no-repeat pt-3 md:h-[1000px]`}
       id="Hero"
     >
       <div
