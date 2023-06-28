@@ -1,5 +1,6 @@
 import NavBar from "./components/Navbar/NavBar";
-import Home from "./components/pages/Home";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 function App() {
   const navItems = ["Inicio", "Servicios", "Precios", "Contacto"];
   return (
@@ -7,6 +8,7 @@ function App() {
       <NavBar navItems={navItems} />
       <Home />
       <div className="container mx-auto"></div>
+      <Footer />
     </div>
   );
 }

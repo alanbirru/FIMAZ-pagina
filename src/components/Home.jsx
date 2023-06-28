@@ -6,7 +6,7 @@ const Home = () => {
     >
       <div className=" flex flex-col items-center justify-center gap-2 pt-40">
         <div className="  rounded-md bg-[#ffffff2d] p-5 backdrop-blur-md">
-          <h1 className="  mb-4 text-center text-5xl text-white md:w-[600px] md:text-8xl">
+          <h1 className="  mb-4 text-center text-6xl text-white md:w-[600px] md:text-8xl">
             <span className="text-[orange]">FIMAZ</span> 2023
           </h1>
           <h4 className="text-center  text-white">
