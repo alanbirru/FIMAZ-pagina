@@ -2,7 +2,7 @@ import LOGO from "../../assets/LOGO.png";
 import { useState } from "react";
 import Hamburger from "./Hamburger";
 
-const NavBar = () => {
+const NavBar = ({ navItems }) => {
   // start hamburger variables
   const [open, setOpen] = useState(false);
   const handleHamburgerClick = () => {
@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   // start nav items varibales
-  const navItems = ["Inicio", "Servicios", "Precios", "Contacto"];
+
   const listNavItems = navItems.map((item, index) => {
     return (
       <li
