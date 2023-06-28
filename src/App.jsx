@@ -1,11 +1,11 @@
 import NavBar from "./components/Navbar/NavBar";
-import Hero from "./components/pages/Hero";
+import Home from "./components/pages/Home";
 function App() {
   const navItems = ["Inicio", "Servicios", "Precios", "Contacto"];
   return (
     <div>
       <NavBar navItems={navItems} />
-      <Hero />
+      <Home />
       <div className="container mx-auto"></div>
     </div>
   );
