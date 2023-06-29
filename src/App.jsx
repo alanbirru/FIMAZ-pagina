@@ -7,7 +7,7 @@ function App() {
     <div>
       <NavBar navItems={navItems} />
       <Home />
-      <div className="container mx-auto"></div>
+      <div className="container mx-auto flex flex-col gap-32"></div>
       <Footer />
     </div>
   );

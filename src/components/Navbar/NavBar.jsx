@@ -4,6 +4,7 @@ import Hamburger from "./Hamburger";
 
 const NavBar = ({ navItems }) => {
   // start hamburger variables
+
   const [open, setOpen] = useState(false);
   const handleHamburgerClick = () => {
     setOpen(!open);
