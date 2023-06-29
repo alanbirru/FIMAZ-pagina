@@ -1,4 +1,4 @@
 const Content = () => {
-  return <div></div>;
+  return <div className="container mx-auto"></div>;
 };
 export default Content;
