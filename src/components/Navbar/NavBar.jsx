@@ -1,16 +1,47 @@
 import LOGO from "../../assets/LOGO.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 import Hamburger from "./Hamburger";
 import NavItemContainer from "./NavItemContainer";
-const NavBar = ({ navItem }) => {
+
+const NavBar = ({ navItems }) => {
   // start hamburger variables
 
   const [open, setOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   const handleHamburgerClick = () => {
     setOpen(!open);
     console.log(open);
   };
+
+  useEffect(() => {
+    const handleIntersection = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const section = entry.target.getAttribute("id");
+          setActiveSection(section);
+          console.log("es visible");
+          console.log(activeSection);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersection, {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.7, // Adjust this threshold as needed
+    });
+
+    // Observe each section element
+    const sectionElements = document.querySelectorAll("section");
+    sectionElements.forEach((section) => observer.observe(section));
+
+    return () => {
+      // Disconnect the observer when the component unmounts
+      observer.disconnect();
+    };
+  }, []);
 
   // start nav items varibales
   return (
@@ -21,7 +52,12 @@ const NavBar = ({ navItem }) => {
         </div>
 
         <Hamburger IsOpen={open} onClick={handleHamburgerClick} />
-        <NavItemContainer IsOpen={open} navItem={navItem} closeHam={setOpen} />
+        <NavItemContainer
+          IsOpen={open}
+          navItems={navItems}
+          closeHam={setOpen}
+          activeSection={activeSection}
+        />
       </div>
     </nav>
   );

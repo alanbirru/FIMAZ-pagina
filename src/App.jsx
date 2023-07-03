@@ -4,15 +4,15 @@ import Footer from "./components/Footer";
 import Content from "./components/Content";
 function App() {
   const navItems = [
-    { title: "Inicio" },
-    { title: "Servicios" },
-    { title: "Precios" },
-    { title: "Contacto" },
+    { title: "Inicio", id: "inicio" },
+    { title: "Servicios", id: "servicios" },
+    { title: "Precios", id: "precios" },
+    { title: "Contacto", id: "contacto" },
   ];
 
   return (
     <div className=" flex min-h-[100vh] flex-col">
-      <NavBar navItem={navItems} />
+      <NavBar navItems={navItems} />
       <Home />
       <Content />
       <Footer />

@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <section
-      id="Inicio"
+      id="inicio"
       className={`h-[700px]  border-b-8 border-[orange] bg-[rgba(0,0,0,0.63)]  bg-[url("hero.jpg")] bg-cover bg-center  bg-no-repeat pt-3 bg-blend-darken md:h-[700px]`}
     >
       <div className=" flex flex-col items-center justify-center gap-2  pt-[100px]  md:pt-40">
