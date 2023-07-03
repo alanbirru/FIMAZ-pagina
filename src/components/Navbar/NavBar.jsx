@@ -30,7 +30,7 @@ const NavBar = ({ navItems }) => {
     const observer = new IntersectionObserver(handleIntersection, {
       root: null,
       rootMargin: "0px",
-      threshold: 0.7, // Adjust this threshold as needed
+      threshold: 0, // Adjust this threshold as needed
     });
 
     // Observe each section element
