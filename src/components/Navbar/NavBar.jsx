@@ -4,44 +4,39 @@ import { useState, useEffect } from "react";
 import Hamburger from "./Hamburger";
 import NavItemContainer from "./NavItemContainer";
 
-let threshold;
-
 const NavBar = ({ navItems }) => {
   // start hamburger variables
 
   const [open, setOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
+  const [activeNavItem, setActiveNavItem] = useState(null);
 
   const handleHamburgerClick = () => {
     setOpen(!open);
     console.log(open);
   };
 
-  useEffect(() => {
-    const handleIntersection = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const section = entry.target.getAttribute("id");
-          setActiveSection(section);
-          console.log("es visible");
-          console.log(activeSection);
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+
+    navItems.forEach((item) => {
+      const section = document.getElementById(item.id);
+      if (section) {
+        const { offsetTop, offsetHeight } = section;
+        if (
+          scrollPosition >= offsetTop - 100 &&
+          scrollPosition < offsetTop + offsetHeight - 100
+        ) {
+          setActiveNavItem(item.id);
         }
-      });
-    };
-
-    const observer = new IntersectionObserver(handleIntersection, {
-      root: null,
-      rootMargin: "0px",
-      threshold: [0, 1.0], // Adjust this threshold as needed
+      }
     });
+  };
 
-    // Observe each section element
-    const sectionElements = document.querySelectorAll("section");
-    sectionElements.forEach((section) => observer.observe(section));
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      // Disconnect the observer when the component unmounts
-      observer.disconnect();
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -58,7 +53,7 @@ const NavBar = ({ navItems }) => {
           IsOpen={open}
           navItems={navItems}
           closeHam={setOpen}
-          activeSection={activeSection}
+          activeSection={activeNavItem}
         />
       </div>
     </nav>
