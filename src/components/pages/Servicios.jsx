@@ -1,6 +1,6 @@
 const Servicios = () => {
   return (
-    <section className="mb-72 mt-72" id="servicios">
+    <section className="mb-[400px] mt-[400px]" id="servicios">
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias neque
         fuga doloremque, temporibus, reprehenderit voluptates autem nisi
@@ -159,24 +159,6 @@ const Servicios = () => {
         delectus perspiciatis. Illum ipsa deleniti sapiente neque similique,
         totam praesentium voluptas, dignissimos explicabo asperiores commodi
         eaque distinctio modi consequatur. Culpa porro debitis voluptas adipisci
-        et, saepe necessitatibus itaque non placeat, totam optio minus
-        perspiciatis vero neque eaque commodi ut. Debitis placeat numquam itaque
-        rerum non. Dolores doloribus delectus aliquid quam sunt quas consequatur
-        eius voluptatibus iste expedita. A vero, sequi unde laudantium rem
-        quidem magnam autem repellat hic, debitis culpa nihil dolorum eum? Iure
-        facere voluptates voluptatibus impedit sint. Incidunt voluptatum,
-        consequuntur minus quis rem expedita quam tenetur recusandae accusantium
-        praesentium et quod possimus maiores! Quo, dignissimos ex doloribus unde
-        ullam aperiam magni magnam nam, quis dolorum officia laboriosam
-        exercitationem dolores? Sequi facere ipsum, modi laborum iure laudantium
-        explicabo nihil obcaecati molestias soluta vel hic qui repellendus vero
-        eos commodi tempore cupiditate quidem autem? Suscipit, sunt repellendus
-        ad iure soluta officia reiciendis eos adipisci inventore atque? Cumque
-        dolores distinctio, eum doloribus non placeat aspernatur repellat cum
-        perferendis provident quisquam consectetur maiores amet, deserunt ipsam
-        iusto obcaecati temporibus fugiat earum atque molestias commodi.
-        Corrupti modi nobis tempore explicabo possimus et, voluptatibus
-        provident debitis ipsum!
       </div>
     </section>
   );

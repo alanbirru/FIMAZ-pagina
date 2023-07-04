@@ -1,6 +1,6 @@
 const Precios = () => {
   return (
-    <section className="mb-72" id="precios">
+    <section className=" mb-[400px]" id="precios">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur,
       possimus tenetur assumenda et veniam eligendi adipisci ad. Magni
       consequuntur odio voluptates, cupiditate unde fuga aperiam nobis. Dicta
@@ -123,31 +123,6 @@ const Precios = () => {
       a, architecto blanditiis in repudiandae officia alias iusto ex id fugit
       itaque vero aliquam odio. Ipsa eius architecto deleniti! Eos, optio saepe
       cupiditate eligendi voluptates animi similique officia aliquid aspernatur
-      quis id tempore aut molestias laudantium aperiam odit ab sed, dignissimos,
-      deserunt enim laborum perferendis esse. Sequi ab iure molestias officia,
-      laboriosam aperiam illum officiis aliquam enim sunt in numquam adipisci
-      dolorem libero minus reiciendis consectetur, commodi eum iste. Voluptatum
-      repellendus tenetur ex itaque eius atque nisi sit enim, inventore fugit
-      debitis maiores! Similique quasi tempore hic nulla excepturi adipisci
-      delectus perspiciatis. Illum ipsa deleniti sapiente neque similique, totam
-      praesentium voluptas, dignissimos explicabo asperiores commodi eaque
-      distinctio modi consequatur. Culpa porro debitis voluptas adipisci et,
-      saepe necessitatibus itaque non placeat, totam optio minus perspiciatis
-      vero neque eaque commodi ut. Debitis placeat numquam itaque rerum non.
-      Dolores doloribus delectus aliquid quam sunt quas consequatur eius
-      voluptatibus iste expedita. A vero, sequi unde laudantium rem quidem
-      magnam autem repellat hic, debitis culpa nihil dolorum eum? Iure facere
-      voluptates voluptatibus impedit sint. Incidunt voluptatum, consequuntur
-      minus quis rem expedita quam tenetur recusandae accusantium praesentium et
-      quod possimus maiores! Quo, dignissimos ex doloribus unde ullam aperiam
-      magni magnam nam, quis dolorum officia laboriosam exercitationem dolores?
-      Sequi facere ipsum, modi laborum iure laudantium explicabo nihil obcaecati
-      molestias soluta vel hic qui repellendus vero eos commodi tempore
-      cupiditate quidem autem? Suscipit, sunt repellendus ad iure soluta officia
-      reiciendis eos adipisci inventore atque? Cumque dolores distinctio, eum
-      doloribus non placeat aspernatur repellat cum perferendis provident
-      quisquam consectetur maiores amet, deserunt ipsam iusto obcaecati
-      temporibus fugiat earum atque molestias commodi. Corrupti modi nobis
       tempore explicabo possimus et, voluptatibus provident debitis ipsum!
     </section>
   );

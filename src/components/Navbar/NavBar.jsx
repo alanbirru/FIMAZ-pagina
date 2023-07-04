@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Hamburger from "./Hamburger";
 import NavItemContainer from "./NavItemContainer";
 
+let threshold;
+
 const NavBar = ({ navItems }) => {
   // start hamburger variables
 
@@ -30,7 +32,7 @@ const NavBar = ({ navItems }) => {
     const observer = new IntersectionObserver(handleIntersection, {
       root: null,
       rootMargin: "0px",
-      threshold: 0.7, // Adjust this threshold as needed
+      threshold: [0, 1.0], // Adjust this threshold as needed
     });
 
     // Observe each section element
