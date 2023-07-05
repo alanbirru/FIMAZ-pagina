@@ -14,7 +14,7 @@ function App() {
     <div className=" flex min-h-[100vh] flex-col">
       <NavBar navItems={navItems} />
       <Home />
-      <Content />
+      <Content navItems={navItems} />
       <Footer />
     </div>
   );
