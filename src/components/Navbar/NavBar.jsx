@@ -42,10 +42,16 @@ const NavBar = ({ navItems }) => {
 
   // start nav items varibales
   return (
-    <nav id="Navbar" className="fixed left-0 top-0 z-10 w-full shadow-md">
-      <div className="items-center justify-between bg-white px-7 md:flex md:px-10">
+    <nav
+      id="Navbar"
+      className="fixed left-0 top-0 z-10 w-full   shadow-md md:p-0"
+    >
+      <div className="items-center justify-between bg-white px-7 py-4 md:flex md:p-0 md:px-10">
         <div>
-          <img className="w-24 p-2 md:w-28" src={LOGO}></img>
+          <img
+            className=" w-28 p-2 transition-all hover:rotate-[-3deg] hover:scale-105 md:w-36 "
+            src={LOGO}
+          ></img>
         </div>
 
         <Hamburger IsOpen={open} onClick={handleHamburgerClick} />

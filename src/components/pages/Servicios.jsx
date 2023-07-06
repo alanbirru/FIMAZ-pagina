@@ -1,7 +1,7 @@
-const Servicios = ({ marginBottom, paddingTop }) => {
+const Servicios = ({ paddingTop, title, id }) => {
   return (
-    <section className={`mt-[50px]  ${paddingTop}`} id="servicios">
-      <h2 className=" mb-7">Servicios</h2>
+    <section className={`mt-[50px]  ${paddingTop}`} id={id}>
+      <h2 className=" mb-7">{title}</h2>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias neque
         fuga doloremque, temporibus, reprehenderit voluptates autem nisi
