@@ -1,6 +1,7 @@
 import Servicios from "./pages/Servicios";
 import Precios from "./pages/Precios";
 import Contacto from "./pages/Contacto";
+
 const Content = ({ navItems }) => {
   const paddingTop = "pt-28";
 

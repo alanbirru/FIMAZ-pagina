@@ -1,7 +1,9 @@
 const Contacto = ({ paddingTop, title, id }) => {
   return (
     <section className={`mb-[150px] ${paddingTop}`} id={id}>
-      <h2 className=" mb-9">{title}</h2>
+      <h2 className="mb-9 underline decoration-primary decoration-[2px] underline-offset-8">
+        {title}
+      </h2>
       <div>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
         adipisci, culpa excepturi ab id, non et optio accusamus esse dolorem
