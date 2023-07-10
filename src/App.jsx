@@ -2,6 +2,7 @@ import NavBar from "./components/Navbar/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
+import UpBtn from "./components/UpBtn";
 function App() {
   const navItems = [
     { title: "Inicio", id: "inicio" },
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <Content navItems={navItems} />
       <Footer />
+      <UpBtn />
     </div>
   );
 }
