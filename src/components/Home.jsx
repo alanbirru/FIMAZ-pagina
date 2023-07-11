@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <section
       id="inicio"
-      className={`h-[800px]   border-b-8 border-primary bg-[rgba(0,0,0,0.63)]  bg-[url("hero.jpg")] bg-cover bg-center  bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
+      className={`h-[800px]   border-b-8 border-primary bg-[rgba(0,0,0,0.63)]  bg-[url("hero.jpg")] bg-cover bg-fixed  bg-center bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
     >
       <div className=" flex flex-col items-center justify-center gap-2  pt-[100px]  md:pt-[480px]">
         <div className="  rounded-md bg-[#ffffff2d] p-5 backdrop-blur-md">
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
 
         <button className=" text mt-9 w-[70%]  rounded-xl bg-primary p-5 text-white transition-all hover:scale-110 md:w-[250px]">
-          Lorem Ipsum
+          ¿Quieres ser expositor?
         </button>
       </div>
     </section>

@@ -16,7 +16,7 @@ const Servicios = ({ paddingTop, title, id }) => {
               OCAR Arrendamientos, Sikada La Bloquera y próximamente Infinity
               View.
             </p>
-            <div></div>
+            <div className="flex"></div>
           </div>
         </>
       </Reveal>
