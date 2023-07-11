@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <section
       id="inicio"
-      className={`h-[700px]   border-b-8 border-primary bg-[rgba(0,0,0,0.63)]  bg-[url("hero.jpg")] bg-cover bg-center  bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
+      className={`h-[800px]   border-b-8 border-primary bg-[rgba(0,0,0,0.63)]  bg-[url("hero.jpg")] bg-cover bg-center  bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
     >
       <div className=" flex flex-col items-center justify-center gap-2  pt-[100px]  md:pt-[480px]">
         <div className="  rounded-md bg-[#ffffff2d] p-5 backdrop-blur-md">
@@ -16,9 +16,14 @@ const Home = () => {
 
         <div className="container mx-auto w-[90%] text-center">
           <p className="text-md text-md pt-5 text-gray-200 md:m-auto md:w-[85%] md:text-lg ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            labore nesciunt ea, nemo incidunt ullam architecto quod atque amet
-            mollitia, quia rem consequatur
+            FIMAZ (Feria Inmobiliaria de Mazatlán) es un evento especializado en
+            el sector inmobiliario que proporciona una plataforma para que los
+            profesionales y empresas del ramo exhiban sus proyectos y servicios,
+            establezcan contactos, aprendan de expertos y se mantengan
+            actualizados sobre las últimas tendencias del mercado. Es un lugar
+            donde los interesados en la compra, venta o inversión en bienes
+            raíces pueden encontrar información relevante y establecer
+            conexiones valiosas.
           </p>
         </div>
 

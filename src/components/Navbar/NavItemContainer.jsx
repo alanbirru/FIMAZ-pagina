@@ -4,7 +4,7 @@ const NavItemContainer = ({ IsOpen, navItems, closeHam, activeSection }) => {
   const listNavItems = navItems.map((item) => {
     return (
       <NavItem
-        title={item.title}
+        title={item.NavTitle}
         closeHam={closeHam}
         id={item.id}
         activeSelection={activeSection}

@@ -5,10 +5,7 @@ const Servicios = ({ paddingTop, title, id }) => {
     <section className={`mt-[50px]  ${paddingTop}`} id={id}>
       <Reveal triggerOnce>
         <>
-          <h2 className="mb-9 underline decoration-primary decoration-[2px] underline-offset-8">
-            {title}
-          </h2>
-
+          {title}
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias neque
             fuga doloremque, temporibus, reprehenderit voluptates autem nisi

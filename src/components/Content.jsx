@@ -8,17 +8,17 @@ const Content = ({ navItems }) => {
   return (
     <div className="container mx-auto flex w-[80%] flex-col gap-10 md:w-[100%] md:gap-40">
       <Servicios
-        title={navItems[1].title}
+        title={navItems[1].SectionTitle}
         paddingTop={paddingTop}
         id={navItems[1].id}
       />
       <Precios
-        title={navItems[2].title}
+        title={navItems[2].SectionTitle}
         paddingTop={paddingTop}
         id={navItems[2].id}
       />
       <Contacto
-        title={navItems[3].title}
+        title={navItems[3].SectionTitle}
         paddingTop={paddingTop}
         id={navItems[3].id}
       />

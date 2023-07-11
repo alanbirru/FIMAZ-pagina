@@ -5,10 +5,18 @@ import Content from "./components/Content";
 import UpBtn from "./components/UpBtn";
 function App() {
   const navItems = [
-    { title: "Inicio", id: "inicio" },
-    { title: "Servicios", id: "servicios" },
-    { title: "Precios", id: "precios" },
-    { title: "Contacto", id: "contacto" },
+    { NavTitle: "Inicio", id: "inicio", SectionTitle: <h2>Inicio</h2> },
+    {
+      NavTitle: "¿Quienes somos?",
+      id: "¿quienes somos?",
+      SectionTitle: (
+        <h2>
+          ¿Quienes <span className=" text-primary">somos</span>?
+        </h2>
+      ),
+    },
+    { NavTitle: "Precios", id: "precios", SectionTitle: <h2>Precios</h2> },
+    { NavTitle: "Contacto", id: "contacto", SectionTitle: <h2>Contacto</h2> },
   ];
 
   return (
