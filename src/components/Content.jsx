@@ -1,4 +1,4 @@
-import Servicios from "./pages/Servicios";
+import QuienesSomos from "./pages/QuienesSomos";
 import Precios from "./pages/Precios";
 import Contacto from "./pages/Contacto";
 
@@ -6,8 +6,8 @@ const Content = ({ navItems }) => {
   const paddingTop = "pt-28";
 
   return (
-    <div className="container mx-auto flex w-[80%] flex-col gap-10 md:w-[100%] md:gap-40">
-      <Servicios
+    <div className="container mx-auto flex w-[90%] flex-col gap-10  bg-gray-100 p-8 md:w-[100%] md:gap-40 ">
+      <QuienesSomos
         title={navItems[1].SectionTitle}
         paddingTop={paddingTop}
         id={navItems[1].id}

@@ -23,7 +23,7 @@ const Home = () => {
             actualizados sobre las últimas tendencias del mercado. Es un lugar
             donde los interesados en la compra, venta o inversión en bienes
             raíces pueden encontrar información relevante y establecer
-            conexiones valiosas.
+            conexiones valiosas
           </p>
         </div>
 
