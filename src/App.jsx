@@ -10,13 +10,29 @@ function App() {
       NavTitle: "¿Quienes somos?",
       id: "¿quienes somos?",
       SectionTitle: (
-        <h2>
+        <h2 className="mb-9 text-center">
           ¿Quienes <span className=" text-primary">somos</span>?
         </h2>
       ),
     },
-    { NavTitle: "Precios", id: "precios", SectionTitle: <h2>Precios</h2> },
-    { NavTitle: "Contacto", id: "contacto", SectionTitle: <h2>Contacto</h2> },
+    {
+      NavTitle: "Precios",
+      id: "precios",
+      SectionTitle: (
+        <h2 className="mb-9 text-center">
+          <span className=" text-primary">P</span>recios
+        </h2>
+      ),
+    },
+    {
+      NavTitle: "Contacto",
+      id: "contacto",
+      SectionTitle: (
+        <h2 className="mb-9 text-center underline decoration-primary decoration-[2px] underline-offset-8">
+          Contacto
+        </h2>
+      ),
+    },
   ];
 
   return (

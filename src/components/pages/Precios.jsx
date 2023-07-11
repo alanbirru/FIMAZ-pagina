@@ -1,9 +1,7 @@
 const Precios = ({ paddingTop, title, id }) => {
   return (
     <section className={`${paddingTop}`} id={id}>
-      <h2 className="mb-9 underline decoration-primary decoration-[2px] underline-offset-8">
-        {title}
-      </h2>
+      {title}
       <div>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur,
         possimus tenetur assumenda et veniam eligendi adipisci ad. Magni
