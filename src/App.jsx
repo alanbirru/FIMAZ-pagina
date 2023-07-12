@@ -11,7 +11,7 @@ function App() {
       id: "¿quiénes somos?",
       SectionTitle: (
         <h1 className="mb-9 text-center">
-          ¿Quiénes <span className=" text-primary">somos</span>?
+          ¿ <span className=" text-primary">Quiénes</span> somos?
         </h1>
       ),
     },
