@@ -28,7 +28,7 @@ const UpBtn = () => {
       onClick={handleClick}
       className={` ${
         showButton ? "visible opacity-100" : "invisible opacity-0"
-      } fixed bottom-4 right-4 rounded-xl border-4 border-gray-800 bg-primary p-3 text-white transition-all duration-300`}
+      } fixed bottom-4 right-4 rounded-xl border-4  border-gray-600 bg-gradient-to-r from-orange-500 to-orange-400 p-3 text-white transition-all duration-300`}
     >
       <TiArrowUpThick className=" text-lg md:text-3xl" />
     </button>
