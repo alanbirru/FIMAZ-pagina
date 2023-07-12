@@ -35,14 +35,15 @@ const UpBtn = () => {
   const buttonVisibilityClass = showButton
     ? "visible opacity-100"
     : "invisible opacity-0";
-  const scalingClass = isScaled ? "scale-125  transition-all" : "";
+
+  const scalingClass = isScaled ? "scale-110 transition-all" : "";
 
   return (
     <button
       onClick={handleClick}
-      className={`fixed bottom-4 right-4 rounded-xl bg-gradient-to-r  from-orange-500 to-orange-400 p-3 text-white  drop-shadow-lg transition-all duration-300 ${buttonVisibilityClass} ${scalingClass}`}
+      className={`fixed bottom-6 right-6 scale-125 rounded-xl  bg-gradient-to-r from-orange-500 to-orange-400 p-3 text-white  drop-shadow-2xl transition-all duration-300 ${buttonVisibilityClass} ${scalingClass}`}
     >
-      <TiArrowUpThick className="text-lg md:text-3xl" />
+      <TiArrowUpThick className="text-lg md:text-2xl" />
     </button>
   );
 };
