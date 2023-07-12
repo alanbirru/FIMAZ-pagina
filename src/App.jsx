@@ -16,7 +16,7 @@ function App() {
       ),
     },
     {
-      NavTitle: "Precios",
+      NavTitle: "Información",
       id: "precios",
       SectionTitle: (
         <h1 className="mb-9 text-center">
