@@ -1,3 +1,4 @@
+import LogoFimaz from "../assets/LOGO.png";
 const Home = () => {
   return (
     <section
@@ -5,13 +6,8 @@ const Home = () => {
       className={`h-[800px]   border-b-8 border-primary bg-[rgba(0,0,0,0.63)]  bg-[url("hero.jpg")] bg-cover bg-fixed  bg-center bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
     >
       <div className=" flex flex-col items-center justify-center gap-2  pt-[100px]  md:pt-[480px]">
-        <div className="  rounded-md bg-[#ffffff2d] p-5 backdrop-blur-md">
-          <h1 className="mb-4 text-center text-5xl text-white md:w-[600px] md:text-8xl">
-            <span className="text-primary">FIMAZ</span> 2023
-          </h1>
-          <h4 className="text-center  text-white">
-            Feria Inmobiliaria de Mazatlán
-          </h4>
+        <div className="  rounded-[0px] bg-[white] p-6 backdrop-blur-md md:rounded-[10px]">
+          <img src={LogoFimaz} />
         </div>
 
         <div className="container mx-auto w-[90%] text-center">
