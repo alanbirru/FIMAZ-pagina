@@ -40,7 +40,7 @@ const UpBtn = () => {
   return (
     <button
       onClick={handleClick}
-      className={`fixed bottom-4 right-4 rounded-xl bg-gradient-to-r  from-orange-500 to-orange-400 p-3 text-white  drop-shadow-2xl transition-all duration-300 ${buttonVisibilityClass} ${scalingClass}`}
+      className={`fixed bottom-4 right-4 rounded-xl bg-gradient-to-r  from-orange-500 to-orange-400 p-3 text-white  drop-shadow-lg transition-all duration-300 ${buttonVisibilityClass} ${scalingClass}`}
     >
       <TiArrowUpThick className="text-lg md:text-3xl" />
     </button>

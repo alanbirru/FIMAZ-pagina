@@ -7,12 +7,12 @@
     @apply text-5xl font-bold; /* Adjust size and font weight as desired */
     @apply sm:text-6xl; /* Adjust size for small screens */
     font-family: "Lato", sans-serif;
+    color: rgb(79, 79, 79);
   }
   h2 {
     @apply text-4xl font-semibold; /* Adjust size and font weight as desired */
     @apply sm:text-5xl; /* Adjust size for small screens */
     font-family: "Lato", sans-serif;
-    color: rgb(79, 79, 79);
   }
   h3 {
     @apply text-3xl font-medium; /* Adjust size and font weight as desired */

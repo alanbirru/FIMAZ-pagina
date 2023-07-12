@@ -6,7 +6,7 @@ const Content = ({ navItems }) => {
   const paddingTop = "pt-28";
 
   return (
-    <div className="container mx-auto flex w-[90%] flex-col gap-10  bg-gray-100 p-8 md:w-[100%] md:gap-40">
+    <div className="container mx-auto flex w-[90%] flex-col gap-10   bg-gray-100 p-8 md:w-[100%] md:gap-40 md:text-xl">
       <QuienesSomos
         title={navItems[1].SectionTitle}
         paddingTop={paddingTop}
