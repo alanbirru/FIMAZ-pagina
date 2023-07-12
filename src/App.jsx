@@ -7,11 +7,11 @@ function App() {
   const navItems = [
     { NavTitle: "Inicio", id: "inicio", SectionTitle: <h2>Inicio</h2> },
     {
-      NavTitle: "¿Quienes somos?",
-      id: "¿quienes somos?",
+      NavTitle: "¿Quiénes somos?",
+      id: "¿quiénes somos?",
       SectionTitle: (
         <h1 className="mb-9 text-center">
-          ¿Quienes <span className=" text-primary">somos</span>?
+          ¿Quiénes <span className=" text-primary">somos</span>?
         </h1>
       ),
     },
