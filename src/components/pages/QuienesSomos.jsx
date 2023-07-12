@@ -1,9 +1,13 @@
+import DicreaLogo from "../../assets/dicrea.png";
+
 const QuienesSomos = ({ paddingTop, title, id }) => {
   return (
     <div>
       <section className={`mt-[20px]  ${paddingTop}`} id={id}>
         {title}
-        <div className="flex justify-center">
+        <div className="md:  flex flex-wrap items-center justify-center gap-14 ">
+          <img className=" w-36 md:w-[350px]" src={DicreaLogo} />
+
           <p className="w-[800px] text-center">
             En DICREA, nos enorgullece ser una empresa dedicada al diseño y
             marketing digital, con una especialización destacada en el sector
@@ -12,7 +16,6 @@ const QuienesSomos = ({ paddingTop, title, id }) => {
             nuestros clientes a destacarse en un mercado cada vez más
             competitivo.
           </p>
-          <div className="flex"></div>
         </div>
       </section>
     </div>
