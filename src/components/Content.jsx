@@ -6,12 +6,14 @@ const Content = ({ navItems }) => {
   const paddingTop = "pt-28";
 
   return (
-    <div className="container mx-auto flex w-[90%] flex-col gap-10    bg-gray-50 p-8 text-gray-700 md:w-[100%] md:gap-40 md:text-xl">
-      <QuienesSomos
-        title={navItems[1].SectionTitle}
-        paddingTop={paddingTop}
-        id={navItems[1].id}
-      />
+    <div className=" mx-auto flex w-[90%] flex-col gap-10    text-gray-700 md:w-[100%] md:gap-40 md:text-xl">
+      <div className=" bg-gray-200 pb-28">
+        <QuienesSomos
+          title={navItems[1].SectionTitle}
+          paddingTop={paddingTop}
+          id={navItems[1].id}
+        />
+      </div>
       <Precios
         title={navItems[2].SectionTitle}
         paddingTop={paddingTop}
