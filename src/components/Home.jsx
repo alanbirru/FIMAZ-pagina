@@ -1,4 +1,5 @@
 import LogoFimaz from "../assets/LOGO.png";
+import Ripples from "react-ripples";
 const Home = () => {
   return (
     <section
@@ -23,9 +24,15 @@ const Home = () => {
           </p>
         </div>
 
-        <button className=" text mt-9 w-[70%]  rounded-xl bg-gradient-to-r from-orange-500 to-orange-400 p-5 text-white drop-shadow-sm transition-all hover:scale-110 md:w-[250px]">
+        {/* <button className=" text mt-9 w-[70%]  rounded-xl bg-gradient-to-r from-orange-500 to-orange-400 p-5 text-white drop-shadow-sm transition-all hover:scale-110 md:w-[250px]">
           ¿Quieres ser expositor?
-        </button>
+        </button> */}
+        <Ripples
+          color="white"
+          className=" mt-4 rounded-2xl   bg-primary p-5 text-white  transition-all hover:scale-110"
+        >
+          <button className="md:w-[250px]">¿Quieres ser expositor?</button>
+        </Ripples>
       </div>
     </section>
   );
