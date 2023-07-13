@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section
       id="inicio"
-      className={`h-[800px]   border-b-8 border-primary  bg-[rgba(0,0,0,0.67)] bg-[url("hero.jpg")] bg-cover  bg-fixed bg-center bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
+      className={`h-[800px]   border-b-8 border-primary  bg-[rgba(0,0,0,0.61)] bg-[url("hero.jpg")] bg-cover  bg-fixed bg-center bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
     >
       <div className=" flex flex-col items-center justify-center gap-2  pt-[100px]  md:pt-[480px]">
         <div className="  rounded-[0px] bg-[white] p-6 backdrop-blur-md md:rounded-[10px]">

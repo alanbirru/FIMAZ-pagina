@@ -11,7 +11,7 @@ function App() {
       NavTitle: "Nosotros",
       id: "¿quiénes somos?",
       SectionTitle: (
-        <h1 className="mb-9 text-center">
+        <h1 className="mb-9 text-center text-white">
           ¿ <span className=" text-primary">Quiénes</span> somos?
         </h1>
       ),

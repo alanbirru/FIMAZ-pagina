@@ -7,7 +7,7 @@ const Content = ({ navItems }) => {
 
   return (
     <div className=" mx-auto flex w-[100%] flex-col gap-10  text-gray-700 md:w-[100%] md:gap-40 md:text-lg ">
-      <div className=" bg-gray-200  p-7 pb-40">
+      <div className=" bg-gray-800  p-7 pb-40">
         <QuienesSomos
           title={navItems[1].SectionTitle}
           paddingTop={paddingTop}
