@@ -3,11 +3,12 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import UpBtn from "./components/UpBtn";
+
 function App() {
   const navItems = [
     { NavTitle: "Inicio", id: "inicio", SectionTitle: <h2>Inicio</h2> },
     {
-      NavTitle: "¿Quiénes somos?",
+      NavTitle: "Nosotros",
       id: "¿quiénes somos?",
       SectionTitle: (
         <h1 className="mb-9 text-center">
@@ -16,16 +17,16 @@ function App() {
       ),
     },
     {
-      NavTitle: "Información",
-      id: "precios",
+      NavTitle: "Info",
+      id: "informacion",
       SectionTitle: (
         <h1 className="mb-9 text-center">
-          <span className=" text-primary">P</span>recios
+          <span className=" text-primary">Información</span> del evento
         </h1>
       ),
     },
     {
-      NavTitle: "Contacto",
+      NavTitle: "Preguntas",
       id: "contacto",
       SectionTitle: (
         <h1 className="mb-9 text-center underline decoration-primary decoration-[2px] underline-offset-8">
