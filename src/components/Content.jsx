@@ -1,5 +1,5 @@
-import QuienesSomos from "./pages/QuienesSomos";
-import Precios from "./pages/Precios";
+import Nosotros from "./pages/Nosotros";
+import Info from "./pages/Info";
 import Contacto from "./pages/Contacto";
 
 const Content = ({ navItems }) => {
@@ -8,7 +8,7 @@ const Content = ({ navItems }) => {
   return (
     <div className=" mx-auto flex w-[100%] flex-col gap-10  text-gray-700 md:w-[100%] md:gap-40 md:text-lg ">
       <div className=" bg-gray-800  p-7 pb-40">
-        <QuienesSomos
+        <Nosotros
           title={navItems[1].SectionTitle}
           paddingTop={paddingTop}
           id={navItems[1].id}
@@ -16,7 +16,7 @@ const Content = ({ navItems }) => {
       </div>
 
       <div className=" p-7">
-        <Precios
+        <Info
           title={navItems[2].SectionTitle}
           paddingTop={paddingTop}
           id={navItems[2].id}

@@ -2,7 +2,9 @@ import estructuraUno from "../../assets/Estructura del evento/estructura-1.jpg";
 import estructuraDos from "../../assets/Estructura del evento/estructura-2.jpg";
 import estructuraTres from "../../assets/Estructura del evento/estructura-3.jpg";
 
-const Precios = ({ paddingTop, title, id }) => {
+import { TypeAnimation } from "react-type-animation";
+
+const Info = ({ paddingTop, title, id }) => {
   return (
     <section className={`${paddingTop} `} id={id}>
       <>
@@ -72,4 +74,4 @@ const Precios = ({ paddingTop, title, id }) => {
   );
 };
 
-export default Precios;
+export default Info;

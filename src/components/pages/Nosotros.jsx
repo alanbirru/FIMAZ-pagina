@@ -1,6 +1,6 @@
 import DicreaLogo from "../../assets/dicrea.png";
-
-const QuienesSomos = ({ paddingTop, title, id }) => {
+import { TypeAnimation } from "react-type-animation";
+const Nosotros = ({ paddingTop, title, id }) => {
   return (
     <div>
       <section className={`mt-[20px]  ${paddingTop}`} id={id}>
@@ -17,9 +17,22 @@ const QuienesSomos = ({ paddingTop, title, id }) => {
             competitivo.
           </p>
         </div>
+
+        <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed out once, initially
+            "¿Quienes Somos?",
+            1000, // wait 1s before replacing "Mice" with "Hamsters"
+            "¿Quienes ",
+          ]}
+          wrapper="span"
+          speed={10}
+          repeat={Infinity}
+          className=" text-white"
+        />
       </section>
     </div>
   );
 };
 
-export default QuienesSomos;
+export default Nosotros;
