@@ -35,13 +35,14 @@ const Info = ({ paddingTop, title, id }) => {
           </div>
 
           <div className="flex flex-col justify-center">
-            <h3 className="mb-10 text-center ">
+            <h3 className="mb-14 text-center ">
               Estructura del <span className="text-primary">evento</span>
             </h3>
-            <div className="flex flex-col items-center justify-center gap-10 ">
+
+            <div className="mb-14  flex flex-wrap items-center justify-center gap-10  ">
               <a href={estructuraUno}>
                 <img
-                  className=" w-[500px] drop-shadow-xl"
+                  className=" w-[300px] drop-shadow-xl"
                   src={estructuraUno}
                   alt="image"
                 />
@@ -49,7 +50,7 @@ const Info = ({ paddingTop, title, id }) => {
 
               <a href={estructuraDos}>
                 <img
-                  className="w-[500px] drop-shadow-xl"
+                  className="w-[300px] drop-shadow-xl"
                   src={estructuraDos}
                   alt="image"
                 />
@@ -57,7 +58,7 @@ const Info = ({ paddingTop, title, id }) => {
 
               <a href={estructuraTres}>
                 <img
-                  className=" w-[1000px] drop-shadow-xl"
+                  className=" w-[700px] drop-shadow-xl"
                   src={estructuraTres}
                   alt="image"
                 />
