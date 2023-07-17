@@ -1,6 +1,6 @@
 const CuandoSera = () => {
   return (
-    <div className="mb-5 flex flex-col justify-center">
+    <div className="mb-5 flex flex-col justify-center rounded-xl p-8  shadow-md">
       <h3 className=" mb-5 text-center ">
         ¿Cuando <span className="mb text-primary">será</span>?
       </h3>

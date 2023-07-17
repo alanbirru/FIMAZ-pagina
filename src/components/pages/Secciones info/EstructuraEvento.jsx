@@ -1,6 +1,6 @@
 const EstructuraEvento = ({ estructuraUno, estructuraDos, estructuraTres }) => {
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center rounded-xl p-8  shadow-md">
       <h3 className="mb-14 text-center ">
         Estructura del <span className="text-primary">evento</span>
       </h3>

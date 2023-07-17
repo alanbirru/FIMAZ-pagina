@@ -1,6 +1,6 @@
 const QuienesPodranAsistir = () => {
   return (
-    <div className="mb-5 flex flex-col justify-center">
+    <div className="mb-5 flex flex-col justify-center rounded-xl p-8  shadow-md">
       <h3 className="mb-5 text-center  ">
         ¿Quienes podrán <span className="text-primary">asistir</span>?
       </h3>
