@@ -8,16 +8,15 @@ const Nosotros = ({ paddingTop, title, id }) => {
         <div className="  flex flex-wrap items-center justify-center gap-14 ">
           <img className=" w-36 md:w-[350px]" src={DicreaLogo} />
           <p className="font-weight: 900; w-[800px] text-center text-white  ">
-            En DICREA, nos enorgullece ser una empresa dedicada al diseño y
-            marketing digital, con una especialización destacada en el sector
-            inmobiliario. Nuestra pasión por la creatividad y la tecnología nos
-            impulsa a ofrecer soluciones innovadoras y efectivas que ayuden a
-            nuestros clientes a destacarse en un mercado cada vez más
-            competitivo.
+            FIMAZ es una feria especializada en el sector inmobiliario que
+            permite a profesionales y empresas exhibir proyectos, establecer
+            contactos y mantenerse actualizados con las últimas tendencias del
+            mercado. Los interesados en bienes raíces encuentran información
+            relevante y conexiones valiosas.
           </p>
         </div>
 
-        <TypeAnimation
+        {/* <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
             "¿Quienes Somos?",
@@ -28,7 +27,7 @@ const Nosotros = ({ paddingTop, title, id }) => {
           speed={10}
           repeat={Infinity}
           className=" text-white"
-        />
+        /> */}
       </section>
     </div>
   );

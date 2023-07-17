@@ -27,10 +27,10 @@ function App() {
     },
     {
       NavTitle: "Preguntas",
-      id: "contacto",
+      id: "preguntas",
       SectionTitle: (
-        <h1 className="mb-9 text-center underline decoration-primary decoration-[2px] underline-offset-8">
-          Contacto
+        <h1 className="mb-9 text-center  underline-offset-8">
+          <span>P</span>reguntas
         </h1>
       ),
     },
