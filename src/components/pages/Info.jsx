@@ -16,7 +16,7 @@ const Info = ({ paddingTop, title, id }) => {
     <section className={`${paddingTop} `} id={id}>
       <>
         {title}
-        <div className=" flex flex-col justify-center">
+        <div className=" container  mx-auto  flex  flex-wrap  items-start justify-center  md:gap-14">
           <DondeSera />
           <CuandoSera />
           <ComoSeraAcceso />

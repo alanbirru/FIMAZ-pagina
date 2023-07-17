@@ -20,9 +20,7 @@ function App() {
       NavTitle: "Info",
       id: "informacion",
       SectionTitle: (
-        <h1 className="mb-9 text-center">
-          <span className=" text-primary">Información</span> del evento
-        </h1>
+        <h1 className=" mb-14 text-center md:mb-28">Información del evento</h1>
       ),
     },
     {

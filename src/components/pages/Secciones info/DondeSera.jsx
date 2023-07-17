@@ -4,6 +4,7 @@ const DondeSera = () => {
       <h3 className="mb-10 text-center">
         ¿<span className=" text-primary">Dónde</span> se llevara acabo?
       </h3>
+      <div></div>
     </div>
   );
 };
