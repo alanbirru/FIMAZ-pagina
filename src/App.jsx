@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Content from "./components/Content";
 import UpBtn from "./components/UpBtn";
 
+import { TypeAnimation } from "react-type-animation";
+
 function App() {
   const navItems = [
     { NavTitle: "Inicio", id: "inicio", SectionTitle: <h2>Inicio</h2> },
@@ -11,7 +13,7 @@ function App() {
       NavTitle: "Nosotros",
       id: "¿quiénes somos?",
       SectionTitle: (
-        <h1 className="mb-9 text-center text-white">
+        <h1 className="mb-20 text-center text-white">
           ¿ <span className=" text-primary">Quiénes</span> somos?
         </h1>
       ),
@@ -20,7 +22,7 @@ function App() {
       NavTitle: "Info",
       id: "informacion",
       SectionTitle: (
-        <h1 className=" mb-14 text-center md:mb-28">Información del evento</h1>
+        <h1 className=" mb-20 text-center md:mb-28">Información del evento</h1>
       ),
     },
     {

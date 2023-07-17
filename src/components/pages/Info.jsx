@@ -9,14 +9,12 @@ import QuienesPodranAsistir from "./Secciones info/QuienesPodranAsistir";
 import EstructuraEvento from "./Secciones info/EstructuraEvento";
 import Stands from "./Secciones info/Stands";
 
-import { TypeAnimation } from "react-type-animation";
-
 const Info = ({ paddingTop, title, id }) => {
   return (
     <section className={`${paddingTop} `} id={id}>
       <>
         {title}
-        <div className=" container  mx-auto  flex  flex-wrap  items-start justify-center  md:gap-14">
+        <div className=" container  mx-auto  flex  flex-wrap  items-start justify-center  gap-8 md:gap-14">
           <DondeSera />
           <CuandoSera />
           <ComoSeraAcceso />

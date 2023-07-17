@@ -1,7 +1,7 @@
 const ComoSeraAcceso = () => {
   return (
-    <div className="mb-10 flex flex-col justify-center ">
-      <h3 className="mb-10 text-center">
+    <div className="mb-5 flex flex-col justify-center ">
+      <h3 className="mb-5 text-center">
         ¿Como será <span className="text-primary">acceso</span>?
       </h3>
       <div className="flex justify-center">
