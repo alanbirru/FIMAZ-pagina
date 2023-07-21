@@ -9,6 +9,23 @@ import QuienesPodranAsistir from "./Secciones info/QuienesPodranAsistir";
 import EstructuraEvento from "./Secciones info/EstructuraEvento";
 import Stands from "./Secciones info/Stands";
 
+const invitados = [
+  "Desarrollos Inmobiliarios",
+  "Bancos",
+  "Constructoras",
+  "Agencias de carros",
+  "Inmobiliarias",
+  "Arquitectos",
+  "Maquinaria pesada",
+  "Material de Construcción",
+];
+
+const imagenes = [
+  { imagen: estructuraUno, estilo: "w-[300px] drop-shadow-xl" },
+  { imagen: estructuraDos, estilo: "w-[300px] drop-shadow-xl" },
+  { imagen: estructuraTres, estilo: "w-[700px] drop-shadow-xl" },
+];
+
 const Info = ({ paddingTop, title, id }) => {
   return (
     <section className={`${paddingTop} `} id={id}>
@@ -18,12 +35,8 @@ const Info = ({ paddingTop, title, id }) => {
           <DondeSera />
           <CuandoSera />
           <ComoSeraAcceso />
-          <QuienesPodranAsistir />
-          <EstructuraEvento
-            estructuraUno={estructuraUno}
-            estructuraDos={estructuraDos}
-            estructuraTres={estructuraTres}
-          />
+          <QuienesPodranAsistir invitados={invitados} />
+          <EstructuraEvento imagenes={imagenes} />
           <Stands />
         </div>
       </>

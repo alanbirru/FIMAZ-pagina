@@ -22,7 +22,21 @@ function App() {
       NavTitle: "Info",
       id: "informacion",
       SectionTitle: (
-        <h1 className=" mb-20 text-center md:mb-28">Información del evento</h1>
+        // <h1 className=" mb-20 text-center md:mb-28">Información del evento</h1>
+        <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed out once, initially
+            "informacion del", // wait 1s before replacing "Mice" with "Hamsters"
+            ,
+            600,
+            "informacion del evento",
+            800,
+          ]}
+          wrapper="h1"
+          speed={20}
+          className="mb-20 text-center"
+          repeat={Infinity}
+        />
       ),
     },
     {

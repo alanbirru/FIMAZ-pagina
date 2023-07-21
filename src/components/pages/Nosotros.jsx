@@ -1,5 +1,5 @@
 import DicreaLogo from "../../assets/dicrea.png";
-import { TypeAnimation } from "react-type-animation";
+
 const Nosotros = ({ paddingTop, title, id }) => {
   return (
     <div>
