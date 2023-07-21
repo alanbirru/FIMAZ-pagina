@@ -34,7 +34,7 @@ function App() {
           ]}
           wrapper="h1"
           speed={20}
-          className="mb-20 text-center"
+          className="relative mb-20 h-24 overflow-hidden pb-10 text-center"
           repeat={Infinity}
         />
       ),
