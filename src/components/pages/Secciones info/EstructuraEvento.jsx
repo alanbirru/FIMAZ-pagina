@@ -7,7 +7,11 @@ const EstructuraEvento = ({ imagenes }) => {
     );
   });
   return (
-    <div className="flex flex-col justify-center rounded-xl p-8  shadow-md">
+    <div
+      className="flex flex-col justify-center rounded-xl p-8  shadow-md"
+      data-aos="zoom-out-down "
+      data-aos-duration="2000"
+    >
       <h3 className="mb-14 text-center ">
         Estructura del <span className="text-primary">evento</span>
       </h3>

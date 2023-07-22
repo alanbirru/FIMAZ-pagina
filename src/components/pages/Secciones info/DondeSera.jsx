@@ -1,6 +1,10 @@
 const DondeSera = () => {
   return (
-    <div className="mb-5 flex flex-col justify-center rounded-xl p-8  shadow-md">
+    <div
+      className="mb-5 flex flex-col justify-center rounded-xl p-8  shadow-md"
+      data-aos="zoom-out-down "
+      data-aos-duration="2000"
+    >
       <h3 className="mb-5 text-center">
         ¿<span className=" text-primary">Dónde</span> se llevara acabo?
       </h3>
