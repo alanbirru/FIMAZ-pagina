@@ -13,7 +13,7 @@ function App() {
       NavTitle: "Nosotros",
       id: "¿quiénes somos?",
       SectionTitle: (
-        <h1 className="mb-20 text-center text-white">
+        <h1 className=" mb-10 text-center text-white md:mb-20">
           ¿ <span className=" text-primary">Quiénes</span> somos?
         </h1>
       ),
@@ -22,14 +22,13 @@ function App() {
       NavTitle: "Info",
       id: "informacion",
       SectionTitle: (
-        // <h1 className=" mb-20 text-center md:mb-28">Información del evento</h1>
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
             "información del", // wait 1s before replacing "Mice" with "Hamsters"
             ,
             600,
-            "información del evento",
+            "información del evento.",
             900,
           ]}
           wrapper="h1"

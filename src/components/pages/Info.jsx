@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 import estructuraUno from "../../assets/Estructura del evento/estructura-1.jpg";
 import estructuraDos from "../../assets/Estructura del evento/estructura-2.jpg";
 import estructuraTres from "../../assets/Estructura del evento/estructura-3.jpg";
@@ -10,9 +8,6 @@ import ComoSeraAcceso from "./Secciones info/ComoSeraAcceso";
 import QuienesPodranAsistir from "./Secciones info/QuienesPodranAsistir";
 import EstructuraEvento from "./Secciones info/EstructuraEvento";
 import Stands from "./Secciones info/Stands";
-
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const invitados = [
   "Desarrollos Inmobiliarios",
@@ -32,10 +27,6 @@ const imagenes = [
 ];
 
 const Info = ({ paddingTop, title, id }) => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
   return (
     <section
       className={`${paddingTop} `}
