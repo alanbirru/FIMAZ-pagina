@@ -35,8 +35,8 @@ function App() {
       ),
     },
     {
-      NavTitle: "Preguntas",
-      id: "preguntas",
+      NavTitle: "Contacto",
+      id: "Contacto",
       SectionTitle: (
         <h1 className="mb-9 text-center  underline-offset-8">
           <span>P</span>reguntas
