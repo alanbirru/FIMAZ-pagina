@@ -10,7 +10,7 @@ const CuandoSera = () => {
       </h3>
       <div>
         <p className=" items-center text-center md:w-[500px]">
-          Del <span className="  font-extrabold">4 al 10 de diciembre</span> ,
+          Del <span className="font-extrabold">4 al 10 de diciembre</span> ,
           aprovechando que en estas fechas hay mucho turismo local y extranjero.
         </p>
       </div>

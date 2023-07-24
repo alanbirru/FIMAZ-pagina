@@ -23,14 +23,7 @@ function App() {
       id: "informacion",
       SectionTitle: (
         <TypeAnimation
-          sequence={[
-            // Same substring at the start will only be typed out once, initially
-            "información del", // wait 1s before replacing "Mice" with "Hamsters"
-            ,
-            600,
-            "información del evento.",
-            900,
-          ]}
+          sequence={["información del", , 600, "información del evento.", 900]}
           wrapper="h1"
           speed={20}
           className="relative mb-20 h-24 overflow-hidden pb-10 text-center"
