@@ -5,23 +5,29 @@ const Nosotros = ({ paddingTop, title, id }) => {
     <div>
       <section className={` ${paddingTop}`} id={id}>
         {title}
+
         <div className="  flex flex-row-reverse flex-wrap items-center justify-center  gap-10 md:flex-row md:gap-24 ">
-          <p className=" w-[550px] text-center  leading-loose text-gray-300">
-            <span className="font-extrabold text-white">DICREA</span> es una
-            empresa especializada en{" "}
-            <span className=" font-extrabold text-white">
+          <img className=" w-40 md:w-[350px]" src={DicreaLogo} />
+          <p className=" w-[550px] text-center leading-loose  text-gray-300 md:w-[800px]">
+            <span className="text-xl font-extrabold text-white md:text-2xl">
+              DICREA
+            </span>{" "}
+            es una empresa especializada en{" "}
+            <span className=" text-xl font-extrabold text-white md:text-2xl">
               diseño y marketing digital
             </span>
             , con un enfoque destacado en el
-            <span className=" font-extrabold text-white">
+            <span className=" text-xl font-extrabold text-white md:text-2xl">
               {" "}
-              sector inmobiliario
+              sector inmobiliario{" "}
             </span>
-            . Su pasión por la creatividad y la tecnología los motiva a ofrecer
-            soluciones innovadoras y efectivas para ayudar a sus clientes a
-            sobresalir en un mercado altamente competitivo.
+            Su pasión por la{" "}
+            <span className=" text-xl font-extrabold text-white md:text-2xl">
+              creatividad y la tecnología
+            </span>{" "}
+            los motiva a ofrecer soluciones innovadoras y efectivas para ayudar
+            a sus clientes a sobresalir en un mercado altamente competitivo.
           </p>
-          <img className=" w-40 md:w-[350px]" src={DicreaLogo} />
         </div>
       </section>
     </div>

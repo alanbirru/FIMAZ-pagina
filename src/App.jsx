@@ -3,7 +3,6 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import UpBtn from "./components/UpBtn";
-
 import { TypeAnimation } from "react-type-animation";
 
 function App() {
@@ -13,8 +12,8 @@ function App() {
       NavTitle: "Nosotros",
       id: "¿quiénes somos?",
       SectionTitle: (
-        <h1 className=" mb-10 text-center text-white md:mb-20">
-          ¿ <span className=" text-primary">Quiénes</span> somos?
+        <h1 className=" mb-10 text-center    text-white md:mb-20">
+          ¿ <span className=" text-primary">Quiénes</span> somos ?
         </h1>
       ),
     },
