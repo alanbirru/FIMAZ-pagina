@@ -4,14 +4,14 @@ const Home = () => {
   return (
     <section
       id="inicio"
-      className={`h-[700px]   border-b-8 border-primary  bg-[rgba(0,0,0,0.61)] bg-[url("hero.jpg")] bg-cover  bg-fixed bg-center bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
+      className={`h-[700px]   border-b-8 border-primary  bg-[rgba(0,0,0,0.68)] bg-[url("hero.jpg")] bg-cover  bg-fixed bg-center bg-no-repeat pt-3 bg-blend-darken md:h-[1500px]`}
     >
-      <div className=" flex flex-col items-center justify-center gap-2  pt-[100px]  md:pt-[480px]">
+      <div className=" flex flex-col items-center justify-center  gap-4  pt-[100px] md:gap-14  md:pt-[480px]">
         <div
           data-aos="zoom-in"
           data-aos-duration="1200"
           data-aos-once="true"
-          className="  rounded-[0px] bg-[white] p-6 backdrop-blur-md md:rounded-[10px] "
+          className="  w-full rounded-[0px] bg-[white] p-6 backdrop-blur-md md:w-[650px] md:rounded-[10px] "
         >
           <img src={LogoFimaz} />
         </div>
@@ -20,7 +20,7 @@ const Home = () => {
           <p
             data-aos="fade-right"
             data-aos-duration="1200"
-            className="text-md text-md pt-5 text-gray-200 md:m-auto md:w-[85%] md:text-lg "
+            className="text-md text-md pt-5  leading-loose text-gray-300 md:m-auto  md:w-[90%]  md:text-lg "
             data-aos-once="true"
           >
             FIMAZ es una feria especializada en el sector inmobiliario que
