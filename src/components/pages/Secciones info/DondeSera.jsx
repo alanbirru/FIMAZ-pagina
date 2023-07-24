@@ -1,7 +1,7 @@
 const DondeSera = () => {
   return (
     <div
-      className="mb-5 flex flex-col justify-center rounded-xl p-8  shadow-md"
+      className="mb-5 flex flex-col justify-center rounded-xl p-8  shadow-lg"
       data-aos="zoom-out-down "
       data-aos-duration="2000"
     >

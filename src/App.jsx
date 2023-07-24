@@ -12,7 +12,11 @@ function App() {
       NavTitle: "Nosotros",
       id: "¿quiénes somos?",
       SectionTitle: (
-        <h1 className=" mb-10 text-center    text-white md:mb-20">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="900"
+          className=" mb-10 text-center    text-white md:mb-20"
+        >
           ¿ <span className=" text-primary">Quiénes</span> somos ?
         </h1>
       ),

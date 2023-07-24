@@ -8,7 +8,7 @@ const EstructuraEvento = ({ imagenes }) => {
   });
   return (
     <div
-      className="flex flex-col justify-center rounded-xl p-8  shadow-md"
+      className="flex flex-col justify-center rounded-xl p-8  shadow-lg  "
       data-aos="zoom-out-down "
       data-aos-duration="2000"
     >
