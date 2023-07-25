@@ -38,9 +38,13 @@ function App() {
       NavTitle: "Contacto",
       id: "Contacto",
       SectionTitle: (
-        <h1 className="mb-9 text-center  underline-offset-8">
-          <span>P</span>reguntas
-        </h1>
+        <TypeAnimation
+          sequence={["Contacto.", , 600, "C", 900]}
+          wrapper="h1"
+          speed={20}
+          className="relative mb-20 h-24 overflow-hidden pb-10 text-center"
+          repeat={Infinity}
+        />
       ),
     },
   ];
