@@ -20,7 +20,7 @@ const Nosotros = ({ paddingTop, title, id }) => {
             <span className=" text-xl font-extrabold text-white md:text-2xl">
               diseño y marketing digital
             </span>
-            , con un enfoque destacado en elg
+            , con un enfoque destacado en el
             <span className=" text-xl font-extrabold text-white md:text-2xl">
               {" "}
               sector inmobiliario{" "}

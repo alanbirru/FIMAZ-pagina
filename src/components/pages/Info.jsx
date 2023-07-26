@@ -31,8 +31,8 @@ const Info = ({ paddingTop, title, id }) => {
     <section
       className={`${paddingTop} `}
       id={id}
-      data-aos="fade-right"
-      data-aos-duration="500"
+      data-aos="fade-down"
+      data-aos-duration="1000"
     >
       <>
         {title}

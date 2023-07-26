@@ -14,7 +14,7 @@ const Content = ({ navItems }) => {
   const paddingTop = "pt-28";
 
   return (
-    <div className=" mx-auto flex w-[100%] flex-col   text-gray-500 md:w-[100%] md:gap-40 md:text-lg ">
+    <div className=" mx-auto flex w-[100%] flex-col   text-lg text-gray-500 md:w-[100%] md:gap-40 md:text-xl ">
       <div className=" bg-gray-800 p-7  pb-32 md:pb-44 ">
         <Nosotros
           title={navItems[1].SectionTitle}
