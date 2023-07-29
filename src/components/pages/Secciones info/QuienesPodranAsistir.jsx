@@ -1,3 +1,5 @@
+import crowd from "../../../assets/crowd.png";
+
 const QuienesPodranAsistir = ({ invitados }) => {
   const invitadosList = invitados.map((invitado) => {
     return (
@@ -18,8 +20,11 @@ const QuienesPodranAsistir = ({ invitados }) => {
       <h3 className="mb-5 text-center ">
         ¿Quienes podrán <span className="text-primary">asistir</span>?
       </h3>
-      <div>
-        <ul className="text-left">{invitadosList}</ul>
+      <div className="flex flex-wrap items-center  justify-center gap-10">
+        <div className=" flex gap-4">
+          <ul className="text-left">{invitadosList}</ul>
+        </div>
+        <img src={crowd} className=" w-[300px]"></img>
       </div>
     </div>
   );

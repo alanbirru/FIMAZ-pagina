@@ -11,7 +11,10 @@ const Nosotros = ({ paddingTop, title, id }) => {
           data-aos-duration="900"
           className="  flex flex-row-reverse flex-wrap items-center justify-center  gap-10 md:flex-row md:gap-24 "
         >
-          <img className=" w-40 md:w-[350px]" src={DicreaLogo} />
+          <img
+            className=" w-40 transition-all hover:scale-110 md:w-[350px]"
+            src={DicreaLogo}
+          />
           <p className=" w-[550px] text-center leading-loose  text-gray-300 md:w-[800px]">
             <span className="text-xl font-extrabold text-white md:text-2xl">
               DICREA
